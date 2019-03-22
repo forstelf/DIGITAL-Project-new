@@ -1,0 +1,77 @@
+.services {
+    width: 100%;
+    /* height: 800px; */
+    background-color: #ebebeb;
+    display: grid;
+}
+
+.librarieS {
+    width: 380px;
+    height: 400px;
+    background-color: #dbdbdb;
+}
+
+.libraries {
+    width: 380px;
+    height: 400px;
+    background-color: #ebebeb;
+}
+
+.ourServ {
+    background-image: url(../img/services.png);
+    width: 410px;
+    height: 799px;
+    opacity: 1.5;
+}
+
+.info {
+    color: #665f60;
+    font-family: pt-sans, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.Info {
+    color: #fefcfd;
+    font-family: proxima-nova, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 118px;
+}
+
+.book {
+    color: #665f60;
+    font-family: pt-sans, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+
+.Book {
+    color: #fefcfd;
+    font-family: pt-sans, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.borat {
+    font-family: pt-sans, sans-serif;
+    font-weight: 700;
+}
+
+.Icon {
+    margin-top: 99px;
+    padding-left: 167px;
+    padding-bottom: 30px;
+}
+
+.IcoN {
+    margin-top: 116px;
+    padding-left: 176px;
+    padding-bottom: 30px;
+}

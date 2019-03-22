@@ -9,10 +9,10 @@
     background: url(../img/about.png) no-repeat;
     width: 380px;
     height: 555px;
-    margin-left: 215px;
+    margin-left: 268px;
     margin-top: 124px;
     margin-bottom: 121px;
-    /* opacity: 0.5; */
+    opacity: 1.5;
 }
 
 .iconeAb {
@@ -22,12 +22,13 @@
 
 .credits {
     color: #fefbfc;
-    font-family: pt-sans, sans-serif;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    /* font-weight: 400; */
+    font-weight: 600;
     font-size: 36px;
-    font-weight: 400;
     /* line-height: 47.13px; */
     text-transform: uppercase;
-    /**/
     padding-top: 44px;
     padding-left: 101px;
 }
@@ -38,11 +39,13 @@
     background-color: #ebebeb;
     margin-top: 124px;
     margin-bottom: 121px;
+    padding-right: 216px;
 }
 
 .nullam {
     padding-top: 76px;
     padding-left: 123px;
+    padding-right: 34px;
     padding-bottom: 93px;
     /* Style for "Nullam qui" */
     width: 633px;
@@ -51,15 +54,24 @@
     font-family: pt-sans, sans-serif;
     font-size: 20px;
     font-weight: 400;
-    /* Text style for "Nullam qui" */
-    /* font-family: pt-sans, sans-serif;
-    font-weight: 400; */
-    /* Text style for "mollis orn" */
-    /* font-family: pt-sans, sans-serif;
-    font-weight: 700; */
-    /* Text style for "fermentum" */
-    /* font-family: pt-sans, sans-serif;
-    font-style: italic; */
+}
+
+.mollisorn {
+    font-family: pt-sans, sans-serif;
+    font-weight: 700;
+}
+
+.fermentum {
+    font-family: pt-sans, sans-serif;
+    font-style: italic;
+}
+
+.clickme {
+    padding-top: 93px;
+    padding-left: 225px;
+    font-family: pt-sans, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .learn {
@@ -73,9 +85,4 @@
     font-family: pt-sans, sans-serif;
     font-size: 20px;
     font-style: italic;
-}
-
-.clickme {
-    padding-top: 93px;
-    padding-left: 225px;
 }

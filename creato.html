@@ -101,8 +101,8 @@
     </section>
 
     <section class="works">
+        <a name="works"></a>
         <div>
-            <a name="works"></a>
             <div><img src="./img/icon/Icon-Works.png" class="work" alt=""></div>
             <div>
                 <h3 class="recent">RECENT WORKS</h3>
@@ -115,11 +115,66 @@
         </div>
     </section>
 
-    <section class="ourTeam"></section>
+    <section class="ourTeam">
+        <a name="ourteam"></a>
+        <div>
+            <div><img src="./img/icon/Icon-Team.png" class="IT" alt=""></div>
+            <div>
+                <h3 class="mot">MEET OUR TEAM</h3>
+            </div>
+            <div class="colum">
+                <div class="team">
+                    <span><img src="./img/miguel.png" alt=""></span>
+                    <span><h3 class="nick">Miguel Obrien</h3></span>
+                    <div class="post">CEO & Founder</div>
+                    <div class="socialM">
+                        <a href="https://www.facebook.com/"><img src="./img/net-icone/facebook.png" alt=""
+                                class="net fs"></a>
+                        <a href="https://plus.google.com/"><img src="./img/net-icone/google+.png" alt=""
+                                class="net gp"></a>
+                        <a href="https://www.linkedin.com/"><img src="./img/net-icone/linked-in.png" alt=""
+                                class="net li"></a>
+                        <a href="https://twitter.com/"><img src="./img/net-icone/twitter.png" alt="" class="net tw"></a>
+                    </div>
+                </div>
+                <div class="team">
+                    <span><img src="./img/jacki.png" alt=""></span>
+                    <span><h3 class="nick">Jackie Carroll</h3></span>
+                    <div class="post">Art Director</div>
+                    <div class="social">
+                        <a href="https://www.behance.net/"><img src="./img/net-icone/behance.png" alt=""
+                                class="net be"></a>
+                        <a href="https://www.facebook.com/"><img src="./img/net-icone/facebook.png" alt=""
+                                class="net fs"></a>
+                        <a href="https://plus.google.com/"><img src="./img/net-icone/google+.png" alt=""
+                                class="net gp"></a>
+                        <a href="https://www.linkedin.com/"><img src="./img/net-icone/linked-in.png" alt=""
+                                class="net li"></a>
+                        <a href="https://twitter.com/"><img src="./img/net-icone/twitter.png" alt="" class="net tw"></a>
+                    </div>
+                </div>
+                <div class="team">
+                    <span><img src="./img/ida.png" alt=""></span>
+                    <span><h3 class="nick">Ida Morrison</h3></span>
+                    <div class="post">Designer</div>
+                    <div class="social">
+                        <a href="https://www.behance.net/"><img src="./img/net-icone/behance.png" alt=""
+                                class="net be"></a>
+                        <a href="https://www.facebook.com/"><img src="./img/net-icone/facebook.png" alt=""
+                                class="net fs"></a>
+                        <a href="https://plus.google.com/"><img src="./img/net-icone/google+.png" alt=""
+                                class="net gp"></a>
+                        <a href="https://www.linkedin.com/"><img src="./img/net-icone/linked-in.png" alt=""
+                                class="net li"></a>
+                        <a href="https://twitter.com/"><img src="./img/net-icone/twitter.png" alt="" class="net tw"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="contact">
         <a name="contact"></a>
-        <!-- <div class=""> -->
         <div class="wrapperform">
             <div class="marker">
                 <img src="./img/icon/geolocation.png" alt="" class="iconemark">
@@ -143,32 +198,26 @@
                 <div class="btn">send form</div>
             </div>
 
-            </div>
-            <div id="map"></div>
+        </div>
+        <div id="map"></div>
     </section>
 
-    <footer></footer>
+    <footer>
+        <div class="footer">
+            <div class="year">
+                <p>©2014 <span class="tulus">tulus</span>driyo. All Rights Reserved.</p>
+            </div>
+            <div class="netw">
+                <a href="https://www.behance.net/"><img src="./img/net-icone/behance.png" alt="" class="net be"></a>
+                <a href="https://www.facebook.com/"><img src="./img/net-icone/facebook.png" alt="" class="net fs"></a>
+                <a href="https://plus.google.com/"><img src="./img/net-icone/google+.png" alt="" class="net gp"></a>
+                <a href="https://www.linkedin.com/"><img src="./img/net-icone/linked-in.png" alt="" class="net li"></a>
+                <a href="https://twitter.com/"><img src="./img/net-icone/twitter.png" alt="" class="net tw"></a>
+            </div>
+        </div>
+        <a href="#" class="topbutton"><img src="./img/icon/arrow_top_.svg" alt=""></a>
+    </footer>
 
-    <script>
-        var map;
-        function initMap() {
-            map = new google.maps.Map(document.getElementById('map'), {
-                center: { lat: -7.961981, lng: 112.6340297 },
-                zoom: 15
-            });
-        }
-    </script>
-
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLYq7_IEtLoJbjmvnPSOp_eb8Ce5waKrs&callback=initMap"
-        async defer></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="./js/jquery.bxslider.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.bx-slider').bxSlider();
-        });
-    </script>
     <script>
         var map;
         function initMap() {

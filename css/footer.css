@@ -1,0 +1,82 @@
+.footer {
+    width: 100%;
+    background-color: #9f9acf;
+    display: inline-flex;
+}
+
+.year {
+    color: #ffffff;
+    font-family: pt-sans, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    padding-top: 82px;
+    padding-left: 253px;
+    padding-bottom: 86px;
+}
+
+.tulus {
+    font-family: pt-sans, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.36px;
+}
+
+.netw {
+    padding-top: 65px;
+    padding-left: 795px;
+}
+
+.net {
+    float: right;
+    margin: 10px;
+}
+
+.net:hover.be{
+    background-color: rgb(19, 40, 59);
+    border-radius: 20px;
+    opacity: 1.5;
+}
+
+.net:hover.fs{
+    background-color: rgb(196, 216, 235);
+    border-radius: 20px;
+    opacity: 1.5;
+}
+
+.net:hover.gp{
+    background-color: rgb(219, 62, 62);
+    border-radius: 20px;
+    opacity: 1.5;
+}
+
+.net:hover.li{
+    background-color: rgb(38, 79, 117);
+    border-radius: 20px;
+    opacity: 1.5;
+}
+
+.net:hover.tw{
+    background-color: rgb(83, 168, 247);
+    border-radius: 20px;
+    opacity: 1.5;
+}
+
+
+
+.topbutton {
+    width: 35px;
+    height: 35px;
+    border: 2px solid #ccc;
+    background-color: #9f9acf;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 35px;
+    right: 51px;
+    cursor: pointer;
+    color: #333;
+    font-size: 30px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+}

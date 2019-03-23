@@ -1,0 +1,60 @@
+.ourTeam {
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+.colum {
+    display: inline-flex;
+    box-sizing: border-box;
+}
+
+.IT {
+    padding-top: 54px;
+    padding-left: 885px;
+    padding-bottom: 34px;
+}
+
+.mot {
+    color: #665f60;
+    font-family: proxima-nova, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 765px;
+    padding-bottom: 68px;
+}
+
+.nick {
+    color: #9f9acf;
+    font-family: proxima-nova, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.post {
+    color: #665f60;
+    font-family: pt-sans, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 36px;
+}
+
+.team {
+    width: 350px;
+    height: 400px;
+    background-color: #ffffff;
+    background-image: linear-gradient(transparent 86%, #9f9acf 50%);
+}
+
+.socialM {
+    padding-top: 10px;
+    padding-right: 94px;
+}
+
+.social {
+    padding-top: 10px;
+    padding-right: 45px;
+}

@@ -1,0 +1,20 @@
+.works {
+    background: url(../img/work.png) no-repeat;
+    background-size: cover;
+    /* opacity: 1.5; */
+}
+
+.work {
+    padding-top: 49px;
+    padding-left: 930px;
+    padding-bottom: 36px;
+}
+
+.recent {
+color: #fefcfd;
+font-family: proxima-nova, sans-serif;
+font-size: 36px;
+font-weight: 400;
+text-transform: uppercase;
+text-align: center;
+}

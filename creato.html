@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Creato</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/jquery.bxslider.css">
 </head>
 
 <body>
@@ -18,12 +19,12 @@
             </a>
             <nav class="side_bar">
                 <div class="topnav" id="myTopnav">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#services">Services</a>
-                    <a href="#works">Works</a>
-                    <a href="#ourteam">OurTeam</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#home">HOME</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="#services">SERVICES</a>
+                    <a href="#works">WORKS</a>
+                    <a href="#ourteam">OURTEAM</a>
+                    <a href="#contact">CONTACT</a>
                     <a id="menu" href="#" class="icon">&#9776;</a>
                 </div>
             </nav>
@@ -68,43 +69,126 @@
 
     <section class="services">
         <a name="services"></a>
-        <div class="place">
-            <div class="librarieS">
+        <div class="wrapper">
+            <div class="librarieS grid-item">
                 <img src="./img/icon/Icon-Graphic.png" class="Icon" alt="">
                 <h3 class="info">GRAPHIC DESIGN</h3>
                 <p class="book">Cras mattis consectetur purus sit amet fermentum.</p>
             </div>
-            <div class="libraries">
+            <div class="libraries grid-item">
                 <img src="./img/icon/Icon-Web.png" class="Icon" alt="">
                 <h3 class="info">WEB DEVELOPMENT</h3>
                 <p class="book">Cras mattis consectetur purus sit amet fermentum.</p>
             </div>
-            <div class="libraries">
-                <img src="./img/icon/Icon-SEO.png" class="Icon" alt="">
-                <h3 class="info">SEO & MARKETING</h3>
-                <p class="book">Cras mattis consectetur purus sit amet fermentum.</p>
-            </div>
-            <div class="librarieS">
-                <img src="./img/icon/Icon-Mobile.png" class="Icon" alt="">
-                <h3 class="info">MOBILE DEVELOPMENT</h3>
-                <p class="book">Cras mattis consectetur purus sit amet fermentum.</p>
-            </div>
-            <div class="ourServ">
+            <div class="ourServ grid-item">
                 <img src="./img/icon/Icon-Services.png" class="IcoN" alt="">
                 <h3 class="Info">OUR SERVICES</h3>
                 <p class="Book">“Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a
                     pharetra augue.”<br>
                     <span class="borat">- Borat -</span></p>
             </div>
+            <div class="libraries grid-item">
+                <img src="./img/icon/Icon-SEO.png" class="Icon" alt="">
+                <h3 class="info">SEO & MARKETING</h3>
+                <p class="book">Cras mattis consectetur purus sit amet fermentum.</p>
+            </div>
+            <div class="librarieS grid-item">
+                <img src="./img/icon/Icon-Mobile.png" class="Icon" alt="">
+                <h3 class="info">MOBILE DEVELOPMENT</h3>
+                <p class="book">Cras mattis consectetur purus sit amet fermentum.</p>
+            </div>
         </div>
     </section>
 
-    <section class="works"></section>
+    <section class="works">
+        <div>
+            <a name="works"></a>
+            <div><img src="./img/icon/Icon-Works.png" class="work" alt=""></div>
+            <div>
+                <h3 class="recent">RECENT WORKS</h3>
+            </div>
+            <div class="slider">
+                <div><img src="./img/slide.png" alt=""></div>
+                <div><img src="./img/slide.png" alt=""></div>
+                <div><img src="./img/slide.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+
     <section class="ourTeam"></section>
-    <section class="contact"></section>
+
+    <section class="contact">
+        <a name="contact"></a>
+        <!-- <div class=""> -->
+        <div class="wrapperform">
+            <div class="marker">
+                <img src="./img/icon/geolocation.png" alt="" class="iconemark">
+                <p class="git">GET IN TOUCH</p>
+            </div>
+
+            <div class="form">
+                <div class="top-form">
+                    <div class="inner-form">
+                        <input type="text" placeholder="Your Name *">
+                    </div>
+                    <div class="inner-form">
+                        <input type="text" placeholder="Your Email *">
+                    </div>
+                </div>
+                <div class="bottom-form">
+                    <div class="inner-form">
+                        <textarea placeholder="Your Message *"></textarea>
+                    </div>
+                </div>
+                <div class="btn">send form</div>
+            </div>
+
+            </div>
+            <div id="map"></div>
+    </section>
+
     <footer></footer>
 
-    <script src="./js/script.js"></script>
+    <script>
+        var map;
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: -7.961981, lng: 112.6340297 },
+                zoom: 15
+            });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLYq7_IEtLoJbjmvnPSOp_eb8Ce5waKrs&callback=initMap"
+        async defer></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/jquery.bxslider.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.bx-slider').bxSlider();
+        });
+    </script>
+    <script>
+        var map;
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: -7.961981, lng: 112.6340297 },
+                zoom: 15
+            });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLYq7_IEtLoJbjmvnPSOp_eb8Ce5waKrs&callback=initMap"
+        async defer></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/jquery.bxslider.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.bx-slider').bxSlider();
+        });
+    </script>
 </body>
 
 </html>

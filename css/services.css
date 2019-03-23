@@ -2,8 +2,22 @@
     width: 100%;
     /* height: 800px; */
     background-color: #ebebeb;
-    display: flex;
+    /* display: grid; */
+    /* grid-template-columns: repeat(3,0fr); */
 }
+
+.wrapper {
+    display: grid;
+    padding-left: 268px;
+    grid-template-columns: repeat(3, 0fr);
+}
+
+/* .grid-item {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+} */
 
 .librarieS {
     width: 380px;

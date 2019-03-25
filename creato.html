@@ -7,7 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Creato</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="js/jquery.bxslider.css">
+    <link rel="stylesheet" href="fa/css/font-awesome.min.css">
+
+    <!-- <link rel="stylesheet" href="js/jquery.bxslider.css"> -->
 </head>
 
 <body>
@@ -69,7 +71,7 @@
 
     <section class="services">
         <a name="services"></a>
-        <div class="wrapper">
+        <div class="attendance">
             <div class="librarieS grid-item">
                 <img src="./img/icon/Icon-Graphic.png" class="Icon" alt="">
                 <h3 class="info">GRAPHIC DESIGN</h3>
@@ -107,11 +109,54 @@
             <div>
                 <h3 class="recent">RECENT WORKS</h3>
             </div>
-            <div class="bx-slider">
-                <div><img src="./img/slide.png" alt=""></div>
-                <div><img src="./img/slide.png" alt=""></div>
-                <div><img src="./img/slide.png" alt=""></div>
-            </div>
+
+            <div class="slider-container">
+
+                    <input type="radio" class="slide_img" name="slide_img" id="img_1" checked>
+                    <input type="radio" class="slide_img" name="slide_img" id="img_2">
+                    <input type="radio" class="slide_img" name="slide_img" id="img_3">
+                
+                    <div class="slides" id="first">
+                        <img src="./img/slide.png" alt="">
+                    </div>
+            
+                    <div class="slides" id="second">
+                        <img src="./img/juta.jpg" alt="">
+                    </div>
+            
+                    <div class="slides" id="third">
+                        <img src="./img/fullsize.jpg" alt="">
+                    </div>
+            
+                    <div id="arrow_next">
+                        <label for="img_1"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </label>
+                        <label for="img_2"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </label>
+                        <label for="img_3"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </label>
+                    </div>
+            
+                    <div id="arrow_prev">
+                        <label for="img_1"><i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </label>
+                        <label for="img_2"><i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </label>
+                        <label for="img_3"><i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </label>
+                    </div>
+            
+                    <div class="switchers">
+                        <label class="switcher" id="switcher1" for="img_1"></label>
+                        <label class="switcher" id="switcher2" for="img_2"></label>
+                        <label class="switcher" id="switcher3" for="img_3"></label>
+                    </div>
+            
+                </div>
+                <div class="clicK">
+                        <input type="button" class="view gallery" value="View Gallery"
+                            onclick="parent.location='https://www.pinterest.com/'" />
+                    </div>
         </div>
     </section>
 
@@ -231,13 +276,13 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLYq7_IEtLoJbjmvnPSOp_eb8Ce5waKrs&callback=initMap"
         async defer></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./js/jquery.bxslider.min.js"></script>
     <script>
         $(document).ready(function () {
             $('.bx-slider').bxSlider();
         });
-    </script>
+    </script> -->
 </body>
 
 </html>

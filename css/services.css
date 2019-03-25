@@ -6,7 +6,7 @@
     /* grid-template-columns: repeat(3,0fr); */
 }
 
-.wrapper {
+.attendance {
     display: grid;
     padding-left: 268px;
     grid-template-columns: repeat(3, 0fr);
